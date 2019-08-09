@@ -1,0 +1,365 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	margin: 0;
+	background: #060606;
+	color:#F5821F;
+}
+/*header*/
+.btn-primary{
+	color: #fff;
+    background-color: #F5821F;
+    border-color: #fff;
+    position: relative;
+    top: -17%;
+    left: -44px;
+}
+.btn-primary:hover{
+	background-color: black;
+}
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 10rem;
+    padding: .5rem 0;
+    margin: -0.875rem -45px 0;
+    font-size: 1rem;
+    color: #292b2c;
+    text-align: left;
+    list-style: none;
+    background-color: #fff;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    border: 1px solid rgba(0,0,0,.15);
+    border-radius: .25rem;
+}
+a{
+	text-decoration: none;
+	color:#F5821F;
+}
+.menu li a:hover{
+	color:#FF5800;	
+}
+.menu li a:active{
+	color:blue;
+}
+.menu{
+	float: left;
+    position: absolute;
+    width: 96%;
+    height: 44px;
+    left: 1%;
+    top: 20%;
+}
+.menu ul li{
+ 	float: left;
+    list-style: none;
+    margin-right: 5%;
+    font-size: 24px;
+    position: relative;
+    top: 10px;
+    left: 46%;
+}
+.dropdown{
+	margin-left: 3%;
+	float: left;
+    position: absolute;
+    width: 50%;
+    height: 44px;
+    left: 23px;
+    top: 20%;
+}
+.dropdown-menu li a{
+	float: left;
+    position: relative;
+    right: 52%;
+    padding-bottom: 10%;
+    font-size: 16px;
+}
+
+.text-block .text-frame  h1{
+	position: absolute;
+    left: 7.1%;
+    float: left;
+    bottom: 38%;
+}
+.text-block .text-frame p {
+    position: absolute;
+    left: 70.1%;
+    top: 34%;
+}
+.logo img{
+	display: block;
+    float: left;
+    position: relative;
+    left: 8%;
+    top: -26px;
+}
+
+#header{
+	padding:30px 0px;
+}
+.container{
+	width: 1140px;
+	margin: 0 auto;
+}
+.logo-holder:after{
+	content:'';
+	display: block;
+	clear: both;
+}
+.logo{
+	float:left;
+}
+
+.banner .container{
+	height: 100%;
+}
+.banner{
+	position: relative;
+	padding-bottom: 
+}
+/*image-size*/
+.banner .image-holder{
+	position: relative;
+	padding-bottom: 66.54125%;
+}
+.banner .image-holder img{
+	position: absolute;
+	top:0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	width: 100%;
+	height: auto;
+	opacity: 0.40;
+	padding-bottom: 50px;
+}
+.banner .text-holder{
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	text-align: center;
+}
+.banner .text-block{
+	display: table;
+	width: 100%;
+	height: 100%;
+}
+.banner .text-frame{
+	display: table-cell;
+	vertical-align: middle;
+}
+.banner .text-frame .arrow {
+    position: absolute;
+    font-size: 141px;
+    font-weight: bold;
+    left: 86%;
+	top: 37.1%;
+}
+.banner .text-frame .arrow:hover{
+	text-decoration: none;
+	color:#fff;
+}
+.banner .text-frame h1{
+	font-size: 150px;
+	text-transform: uppercase;
+	margin: 0;
+	line-height:250px;
+}
+.banner .text-frame p{
+	font-size: 70px;
+}
+/*benefit-block:middle part*/
+.three-cols{
+	overflow: hidden;
+	margin: 0px -25px;
+}
+.three-cols .col{
+	float: left;
+	width: 33.33%;
+	padding: 0 25px 40px;
+}
+.benefits-block h3{
+	margin: 0 0 25px;
+	font-size: 30px;
+	line-height: 26px;
+	font-weight: bold;
+}
+.benefits-block h3 a{
+	color:#F5821F;
+}
+.benefits-block h3 a:hover{
+	color:#FF5800;
+}
+.benefits-block p{
+	margin:0;
+	font-size:20px;
+}
+.benefits-block{
+	border-top: 3px solid #F5821F;
+	border-bottom: 3px solid #F5821F;
+	border-right: 3px solid #F5821F;
+	border-left:3px solid #F5821F;
+	line-height: 22px;
+	text-align: center;
+	background: #f4f4f4;
+	padding:40px 0 30px;
+	margin: 100px 0 0 0;
+}
+.benefits-block2{
+	border-top: 3px solid #F5821F;
+    border-bottom: 3px solid #F5821F;
+    border-right: 3px solid #F5821F;
+    border-left: 3px solid #F5821F;
+    line-height: 22px;
+    text-align: center;
+    background: #f4f4f4;
+    padding: 40px 0 30px;
+    margin: 100px 0 0 0;
+    width: 133%;
+    position: relative;
+    left: -185px;
+}
+.benefits-block0{
+	border-top: 3px solid #F5821F;
+	border-bottom: 3px solid #F5821F;
+	border-right: 3px solid #F5821F;
+	border-left:3px solid #F5821F;
+	line-height: 22px;
+	text-align: center;
+	background: #f4f4f4;
+	padding:40px 0 30px;
+	margin: 12px 0 0 0;
+}
+
+.benefits-block .icon{
+	width: 100px;
+	height: 100px;
+	margin: 0 auto;
+	position: relative;
+}
+.benefits-block .icon:after{
+	content: '';
+	width: 99px;
+	height: 55px;
+	position: absolute;
+	background: url('../images/all.png') no-repeat 0 0;
+	top: 50%;
+	left: 50%;
+	margin:-31.3px 0 0 -44.9px;
+}
+.benefits-block .icon.two:after{
+	background-position:-113px 0;
+	width: 100px;
+	height:100px;
+	margin:-56px 0 0 -48.3px; 
+}
+.benefits-block .icon.three:after{
+	background-position: 0 -100px;
+	width: 82px ;
+	height: 81px;
+	margin: -50px 0px 0px -35.8px; 
+}
+/*heading-holder*/
+.content-block{
+	text-align: center;
+	padding: 80px 0 55px;
+}
+.content-block .heading-holder h2{
+	color: #FF5800;
+	font-size: 40px;
+	font-weight: 400;
+	line-height: 20px;
+	margin: 6px 0 54px;
+}
+.content-block .heading-holder .strong{
+	color: rgba(255, 118, 0, 0.87);
+	font-size: 24px;
+}
+.content-block .heading-holder{
+	margin: 0 0 25px;
+}
+
+/*multi-block*/
+.three-col{
+	overflow: hidden;
+    margin: 0 23.1%;
+    width: 81%;
+    height: 41%;
+}
+.three-col1{
+	overflow: hidden;
+    margin: 0 23.1%;
+    width: 81%;
+    height: 41%;
+    margin-top: 3%;
+}
+.three-col .colone img{
+	float: left;
+    width: 250px;
+    height: 150px;
+    margin-right: 37px;
+  	border:3px solid #F5821F;
+}
+.three-col .coltwo img{
+	float: left;
+	width: 250px;
+	height: 150px;
+	margin-right: 37px;
+	border:3px solid #F5821F;
+}
+
+.three-col .colthree img{
+	float: left;
+	width: 250px;
+	height: 150px;
+	border:3px solid #F5821F;
+}
+.three-col1 .colone img{
+	float: left;
+    width: 250px;
+    height: 150px;
+    margin-right: 37px;
+    border:3px solid #F5821F;
+}
+.three-col1 .coltwo img{
+	float: left;
+	width: 250px;
+	height: 150px;
+	margin-right: 37px;
+	border:3px solid #F5821F;
+}
+
+.three-col1 .colthree img{
+	float: left;
+	width: 250px;
+	height: 150px;
+	border:3px solid #F5821F;
+}
+.gallery{
+	color: #FF5800;
+	font-size: 66px;
+    text-transform: uppercase;
+    margin-bottom: 4%;
+    margin-top: 1%;
+}
+.colone:hover{
+	opacity: 0.4;
+}
+.coltwo:hover{
+	opacity: 0.4;
+}
+ .colthree:hover{
+	opacity: 0.4;
+}
+
+
+

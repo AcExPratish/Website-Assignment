@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>LOG IN</title>
+</head>
+<body>
+<script type="text/javascript">
+	var username = prompt("Username: ");
+	var password = prompt("Password: ");
+if (username=="Admin" || username=="admin"){
+	if(password=="Admin" || password=="admin"){
+		alert("Welcome to KTM");
+		window.location.href = "home.html";
+}
+}
+else{
+	alert("Access Denied");
+	window.location.replace("images/404error.jpg");
+}
+</script>
+</body>
+</html>
